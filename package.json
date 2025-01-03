@@ -1,6 +1,6 @@
 {
   "name": "utf8-refine",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Khôi phục dữ liệu UTF-8",
   "main": "dist/index.js",
   "type": "module",

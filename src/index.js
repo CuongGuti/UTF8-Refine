@@ -1,5 +1,8 @@
 const UTF8Refine = (content) => {
     const replacements = {
+        'Ã¢Ì': 'ấ',
+        'oÌ€': 'ò',
+        'aÌ‰': 'ả',
         'Ä‘': 'đ',
         'Å©': 'ũ',
         'Äƒ': 'ă',
