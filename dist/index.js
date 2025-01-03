@@ -51,7 +51,7 @@ const UTF8Refine = content => {
         'áº£': 'ả',
         'áº³': 'ẳ',
         'áº¹': 'ẹ',
-        'áº': 'ậ',
+        'áº­': 'ậ',
         'Ã': 'Í',
         'Ã”': 'Ô',
         'Ã‚': 'Â',
@@ -70,7 +70,7 @@ const UTF8Refine = content => {
         'Ã²': 'ò',
         'Ã¹': 'ù',
         'Ãº': 'ú',
-        'Ã': 'í'
+        'Ã­': 'í'
     };
 
     Object.entries(replacements).forEach(([find, replace]) => {
