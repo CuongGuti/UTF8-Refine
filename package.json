@@ -1,0 +1,9 @@
+{
+  "name": "utf8-refine",
+  "version": "1.0.0",
+  "description": "Khôi phục dữ liệu UTF-8",
+  "main": "index.js",
+  "repository": "https://github.com/CuongGuti/UTF8-Refine.git",
+  "author": "Cường Guti",
+  "license": "MIT"
+}

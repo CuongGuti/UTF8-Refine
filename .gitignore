@@ -1,0 +1,21 @@
+sheets
+node_modules/
+package-lock.json
+*.log
+*.swp
+*.swo
+.vscode/
+.cert
+.env*.local
+.env
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+*/.DS_Store
+.DS_Store
+*.pem
+
