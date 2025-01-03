@@ -1,5 +1,5 @@
 # UTF8-Refine
-Đây là 1 thư viện nhỏ giúp bạn có thể khôi phục các ký tự UTF-8 bị lỗi.
+Đây là 1 thư viện nhỏ giúp bạn có thể khôi phục các ký tự lỗi trong tiếng Việt.
 
 ## Bắt đầu
 ```
@@ -13,9 +13,9 @@ npm install utf8-refine
 ```
 import UTF8Refind from 'utf8-refine';
 
-const conten = "Sá»‘ 16A ThÃ¡i Thuáº­n, PhÆ°á»ng An PhÃº, Thá»§ Äá»©c, TP. Há»“ ChÃ­ Minh"
+const noiDung = "Sá»‘ 16A ThÃ¡i Thuáº­n, PhÆ°á»ng An PhÃº, Thá»§ Äá»©c, TP. Há»“ ChÃ­ Minh"
 
-const newContent = UTF8Refind(diaChi)
+const ketQua = UTF8Refind(noiDung)
 
 // Số 16A Thái Thụy, Phường An Phú, Thủ Đức, TP. Hồ Chí Minh
 ```
